@@ -12,8 +12,8 @@ PDR_out <- read_outcome_data(
   snp_col = "rsids",
   beta_col = "beta",
   se_col = "sebeta",
-  effect_allele_col = "ref",
-  other_allele_col = "alt",
+  effect_allele_col = "alt",
+  other_allele_col = "ref",
   eaf_col = "af_alt",
   pval_col = "pval")
 
